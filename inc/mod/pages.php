@@ -126,7 +126,7 @@ function mod_dashboard() {
 							'major' => (int) $matches[2],
 							'minor' => (int) $matches[3]
 						);
-						if (isset($m[4])) { 
+						if (isset($matches[4])) {
 							// Development versions are always ahead in the versioning numbers
 							$current['minor'] --;
 						}
